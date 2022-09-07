@@ -10,24 +10,31 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Project02
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Win_Add.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Win_Add : Window
     {
-        public MainWindow()
+        public Win_Add()
         {
             InitializeComponent();
         }
 
         private void Button_Close(object sender, RoutedEventArgs e)
         {
-            Close();
+            this.Close();
+        }
+
+        private void buttonHome_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+
+            this.Close();
         }
 
         private void buttonInfo_Click(object sender, RoutedEventArgs e)

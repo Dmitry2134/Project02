@@ -58,6 +58,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Win_Add.xaml.cs">
+      <DependentUpon>Win_Add.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Win_Svedenia.xaml.cs">
+      <DependentUpon>Win_Svedenia.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -70,6 +76,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Win_Add.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Win_Svedenia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -90,6 +104,8 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <Resource Include="Fonts\Roboto-Light.ttf" />
+    <Resource Include="Fonts\SFProDisplay-Regular.ttf" />
+    <Resource Include="Fonts\SFPRODISPLAYMEDIUM.OTF" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -97,9 +113,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Calculator_31111.ico" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="scientist.ico" />
@@ -116,6 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\img_laboratoria_1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
