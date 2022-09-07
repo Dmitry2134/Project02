@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>scientist.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -86,6 +89,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Fonts\Roboto-Light.ttf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -93,6 +97,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Calculator_31111.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="scientist.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Green_3.png" />
+    <Resource Include="Assets\Red_2.png" />
+    <Resource Include="Assets\Yellow_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\home.png" />
+    <Resource Include="Assets\plus.png" />
+    <Resource Include="Assets\portfolio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\setting.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

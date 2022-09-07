@@ -24,5 +24,10 @@ namespace Project02
         {
             InitializeComponent();
         }
+
+        private void Button_Close(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
