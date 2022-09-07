@@ -58,6 +58,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Scientists.cs" />
     <Compile Include="Win_Add.xaml.cs">
       <DependentUpon>Win_Add.xaml</DependentUpon>
     </Compile>
@@ -132,6 +133,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\img_laboratoria_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Xml\Info.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

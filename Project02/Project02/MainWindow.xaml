@@ -19,13 +19,11 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="90"/>
             <ColumnDefinition />
-            <ColumnDefinition Width="35"/>
-            <ColumnDefinition Width="35"/>
-            <ColumnDefinition Width="35"/>
+            <ColumnDefinition Width="50"/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="25"/>
+            <RowDefinition Height="45"/>
             <RowDefinition Height="60"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
@@ -50,19 +48,11 @@
             </Button>
         </StackPanel>
 
-        <!--Button open/minimize/close-->
-        <Button BorderBrush="Transparent" Background="Transparent" Grid.Column="4" Width="20" Click="Button_Close">
+        <!--Button-close-->
+        <Button BorderBrush="Transparent" Background="Transparent" Grid.Column="4" Width="25" Click="Button_Close">
             <Image Source="Assets/Red_2.png"/>
         </Button>
 
-        <Button BorderBrush="Transparent" Background="Transparent" Grid.Column="3" Width="20" Click="Button_Close">
-            <Image Source="Assets/Yellow_2.png"/>
-        </Button>
-
-        <Button BorderBrush="Transparent" Background="Transparent" Grid.Column="2" Width="20" Click="Button_Close">
-            <Image Source="Assets/Green_3.png"/>
-        </Button>
-        
         <!--Home-->
         <Border Background="White" BorderThickness="3" CornerRadius="20" BorderBrush="White" Width="850" Height="600" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="4" >
             <Grid>
