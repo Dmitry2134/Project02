@@ -90,7 +90,7 @@
 
         <!--Button-close-->
         <Button BorderBrush="Transparent" Background="Transparent" Grid.Column="4" Width="25" Click="Button_Close">
-            <Image Source="Assets/Red_2.png"/>
+            <Image Source="Assets/Close.png"/>
         </Button>
 
         <!--Add-peaple-->

@@ -12,8 +12,8 @@ C:\Users\Twinkle\Documents\GitHub\Project02\Project02\Project02\obj\Debug\Projec
 C:\Users\Twinkle\Documents\GitHub\Project02\Project02\Project02\obj\Debug\Project02.csproj.CoreCompileInputs.cache
 C:\Users\Twinkle\Documents\GitHub\Project02\Project02\Project02\obj\Debug\Project02.exe
 C:\Users\Twinkle\Documents\GitHub\Project02\Project02\Project02\obj\Debug\Project02.pdb
-C:\Users\Twinkle\Documents\GitHub\Project02\Project02\Project02\obj\Debug\Project02.csproj.AssemblyReference.cache
 C:\Users\Twinkle\Documents\GitHub\Project02\Project02\Project02\obj\Debug\Win_Svedenia.g.cs
 C:\Users\Twinkle\Documents\GitHub\Project02\Project02\Project02\obj\Debug\Win_Svedenia.baml
 C:\Users\Twinkle\Documents\GitHub\Project02\Project02\Project02\obj\Debug\Win_Add.g.cs
 C:\Users\Twinkle\Documents\GitHub\Project02\Project02\Project02\obj\Debug\Win_Add.baml
+C:\Users\Twinkle\Documents\GitHub\Project02\Project02\Project02\obj\Debug\Project02.csproj.AssemblyReference.cache

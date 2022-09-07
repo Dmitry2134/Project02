@@ -119,11 +119,6 @@
     <Resource Include="scientist.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Green_3.png" />
-    <Resource Include="Assets\Red_2.png" />
-    <Resource Include="Assets\Yellow_2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Assets\home.png" />
     <Resource Include="Assets\plus.png" />
     <Resource Include="Assets\portfolio.png" />
@@ -136,6 +131,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Xml\Info.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\close.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
