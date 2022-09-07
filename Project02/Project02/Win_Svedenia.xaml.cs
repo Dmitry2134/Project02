@@ -60,8 +60,6 @@ namespace Project02
             {
                 Grid grid = new Grid();
 
-                RowDefinitionCollection rd = grid.RowDefinitions;
-
                 grid.ShowGridLines = false;
                 grid.RowDefinitions.Add(new RowDefinition());
                 grid.RowDefinitions.Add(new RowDefinition());
