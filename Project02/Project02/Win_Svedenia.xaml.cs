@@ -171,9 +171,9 @@ namespace Project02
 
         public void ReadXml()
         {
-            if (File.Exists(@"C:\Scientists.xml"))
+            if (File.Exists(@"D:\Scientists.xml"))
             {
-                XDocument xdoc = XDocument.Load(@"C:\Scientists.xml");
+                XDocument xdoc = XDocument.Load(@"D:\Scientists.xml");
                 foreach (XElement dir in xdoc.Element("Scientists").Elements("Scientist"))
                 {
                     Scientists scientists = new Scientists

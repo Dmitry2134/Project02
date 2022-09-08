@@ -63,9 +63,9 @@ namespace Project02
             if (tbFullname.Text != "" || tbGender.Text != "" || tbAge.Text != "" || tbFamily.Text != "" || tbСhildren.Text != "" || tbPosition.Text != "" || tbAcademicD.Text != "" )
             {
                 XmlDocument xDoc = new XmlDocument();
-                if (File.Exists(@"C:\Scientists.xml"))
+                if (File.Exists(@"D:\Scientists.xml"))
                 {
-                    xDoc.Load(@"C:\Scientists.xml");
+                    xDoc.Load(@"D:\Scientists.xml");
                     XmlElement xRoot = xDoc.DocumentElement;
                     XmlElement userElem = xDoc.CreateElement("Scientist");
                     XmlAttribute fullnameAttr = xDoc.CreateAttribute("fullname");
@@ -102,7 +102,7 @@ namespace Project02
                     userElem.AppendChild(academicElem);
 
                     xRoot.AppendChild(userElem);
-                    xDoc.Save(@"C:\Scientists.xml");
+                    xDoc.Save(@"D:\Scientists.xml");
                 }
                 else
                 {
@@ -128,10 +128,18 @@ namespace Project02
                     XElement scientists = new XElement("Scientists");
                     scientists.Add(scientist);
                     xdoc.Add(scientists);
-                    xdoc.Save(@"C:\Scientists.xml");
+                    xdoc.Save(@"D:\Scientists.xml");
                 }
 
                 MessageBox.Show("Добавлено!");
+
+                tbFullname.Text = "";
+                tbGender.Text = "";
+                tbAge.Text = "";
+                tbFamily.Text = "";
+                tbСhildren.Text = "";
+                tbPosition.Text = "";
+                tbAcademicD.Text = "";
             }
             else
             {

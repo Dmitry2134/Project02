@@ -13,8 +13,6 @@
         AllowsTransparency="True"
         WindowStartupLocation="CenterScreen">
 
-    
-    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="90"/>
@@ -56,22 +54,24 @@
         <!--Home-->
         <Border Background="White" BorderThickness="3" CornerRadius="20" BorderBrush="White" Width="850" Height="600" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="4" >
             <Grid>
+
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
+
                 
                 <Border BorderBrush="#8383b3" CornerRadius="5" BorderThickness="5" Width="350" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,70,0,0">
-                    <Image Source="Assets/img_laboratoria_1.jpg"/>
+                    <Image x:Name="img" Source="Assets/img_laboratoria_1.jpg"/>
                 </Border>
 
                 <TextBlock FontSize="34" Foreground="#1b1464"  FontWeight="Bold" FontFamily="SFPRODISPLAYMEDIUM.OTF" Text="Лаборатория «ВПТ» " Margin="70,20,0,0"/>
                 <TextBlock FontSize="25" Foreground="#1b1464" FontFamily="SFPRODISPLAYMEDIUM.OTF" Margin="0,80,30,0" Grid.Column="1" Text="Лаборатория – орган, который осуществляет один или несколько из следующих видов деятельности: испытания; калибровка; отбор образцов, связанный с последующими испытаниями или калибровкой." TextWrapping="Wrap"/>
             </Grid>
         </Border>
-        
+
     </Grid>
-    
-    
-    
+
+
+
 </Window>
